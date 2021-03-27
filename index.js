@@ -6,5 +6,5 @@ var recipies = {}
  }
 
 function deleteFromObjectByKey(object, key){
-  delete meals.key
+  delete object.key
 }
