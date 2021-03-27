@@ -1,11 +1,11 @@
 var recipies = {key: "value"}
 
- function updateObjectWithKeyAndValue(object, key, value){
+ function updateObjectWithKeyAndValue(recipes, key, value){
    object[key] = value
-  return object
+  return recipes
  }
 
-function deleteFromObjectByKey(object, key){
-  delete object[key]
-  return object
+function deleteFromObjectByKey(recipes, key){
+  delete recipes[key]
+  return recipes
 }
