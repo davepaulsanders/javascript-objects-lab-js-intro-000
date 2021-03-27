@@ -4,3 +4,7 @@ var recipies = {}
    object[key] = value
   return object
  }
+
+function deleteFromObjectByKey(object, key){
+  object.delete = key
+}
